@@ -1,0 +1,30 @@
+<resources>
+
+     
+   
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+
+
+     
+
+    <style name="lib_material_rating_style" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/lib_material_icon_ratingbar</item>
+        <item name="android:indeterminateDrawable">@drawable/lib_material_icon_ratingbar</item>
+    </style>
+
+    <declare-styleable name="TemplateView">
+        <attr name="gnt_template_type" format="reference"/>
+    </declare-styleable>
+
+</resources>
